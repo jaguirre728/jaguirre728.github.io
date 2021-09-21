@@ -35,6 +35,7 @@ boton_sumar.addEventListener("click",function(){
 	}
 	
 	prueba = suma(a,b);
+        prueba = "El resultado es: " + prueba;
 	resultado.innerHTML = prueba;
 });
 
